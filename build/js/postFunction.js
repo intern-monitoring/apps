@@ -28,7 +28,7 @@ function responseData(result) {
       text: "You have successfully logged in.",
     }).then(() => {
       // Redirect to homePelamar.html
-      window.location.href = "./pelamar/homePelamar.html";
+      window.location.href = "./mahasiswa/homeMahasiswa.html";
     });
   } else {
     // Jika tidak memiliki token, tampilkan SweetAlert pesan kesalahan
