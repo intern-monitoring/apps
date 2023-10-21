@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Swal.fire({
       icon: "info",
       title: "Informasi",
-      text: "Anda belum login. Kembali ke halaman sign in.",
+      text: "Anda belum login. Silahkan login terlebih dahulu.",
       confirmButtonText: "OK",
     }).then(() => {
       // Redirect ke halaman sign in
