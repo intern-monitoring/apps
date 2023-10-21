@@ -4,7 +4,7 @@ import { setCookieWithExpireHour } from "https://jscroot.github.io/cookie/croot.
 
 export default function PostSignUp() {
   let target_url =
-    "https://asia-southeast2-bursakerja-project.cloudfunctions.net/bursakerja-post";
+    "https://asia-southeast2-bursakerja-project.cloudfunctions.net/intermonitoring-login";
   let tokenkey = "token";
   let tokenvalue =
     "3108501ddf2f9aa33f3a7c0e387339b131d8a4d22818feb511b0fe1bc3a16b36";
